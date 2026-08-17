@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <!-- Day sky -->
+    <linearGradient id="daySky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7EC8E3"/>
+      <stop offset="45%" stop-color="#F2C14E"/>
+      <stop offset="100%" stop-color="#E8A87C"/>
+    </linearGradient>
+    <!-- Night sky -->
+    <linearGradient id="nightSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B1B33"/>
+      <stop offset="55%" stop-color="#1A3358"/>
+      <stop offset="100%" stop-color="#2C1E3E"/>
+    </linearGradient>
+    <linearGradient id="dayDune" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E0A96D"/>
+      <stop offset="100%" stop-color="#C68642"/>
+    </linearGradient>
+    <linearGradient id="nightDune" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3D2E4A"/>
+      <stop offset="100%" stop-color="#1A1224"/>
+    </linearGradient>
+    <!-- Glitter sands -->
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE65D"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#E5B800"/>
+    </linearGradient>
+    <linearGradient id="roseGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F4C2C2"/>
+      <stop offset="50%" stop-color="#E0A96D"/>
+      <stop offset="100%" stop-color="#C68642"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#20B2AA"/>
+      <stop offset="50%" stop-color="#008080"/>
+      <stop offset="100%" stop-color="#005C5C"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7FFFD4"/>
+      <stop offset="50%" stop-color="#50C878"/>
+      <stop offset="100%" stop-color="#2E8B57"/>
+    </linearGradient>
+    <linearGradient id="amethyst" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D8B4FE"/>
+      <stop offset="50%" stop-color="#9966CC"/>
+      <stop offset="100%" stop-color="#5B3A8C"/>
+    </linearGradient>
+    <linearGradient id="iridescent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7FFFD4"/>
+      <stop offset="35%" stop-color="#E8E0FF"/>
+      <stop offset="70%" stop-color="#F4C2C2"/>
+      <stop offset="100%" stop-color="#20B2AA"/>
+    </linearGradient>
+    <linearGradient id="glassShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="glassBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#B8D4FF" stop-opacity="0.12"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="sparkle" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+    <clipPath id="clipDay"><rect x="0" y="0" width="800" height="900"/></clipPath>
+    <clipPath id="clipNight"><rect x="800" y="0" width="800" height="900"/></clipPath>
+  </defs>
+
+  <!-- ========== BACKGROUND: DAY / NIGHT SPLIT ========== -->
+  <g clip-path="url(#clipDay)">
+    <rect width="800" height="900" fill="url(#daySky)"/>
+    <!-- Sun -->
+    <circle cx="620" cy="170" r="72" fill="#FFE65D" filter="url(#softGlow)" opacity="0.95"/>
+    <circle cx="620" cy="170" r="48" fill="#FFD700"/>
+    <circle cx="620" cy="170" r="28" fill="#FFF8D6" opacity="0.85"/>
+    <!-- Dunes -->
+    <path d="M0 620 C120 560 220 580 340 610 C480 650 560 540 800 600 L800 900 L0 900 Z" fill="#E8B86D" opacity="0.9"/>
+    <path d="M0 700 C180 640 300 720 460 690 C620 660 700 720 800 680 L800 900 L0 900 Z" fill="url(#dayDune)"/>
+    <path d="M0 780 C200 740 380 800 560 760 C680 735 740 770 800 750 L800 900 L0 900 Z" fill="#B8733A" opacity="0.85"/>
+  </g>
+
+  <g clip-path="url(#clipNight)">
+    <rect x="800" width="800" height="900" fill="url(#nightSky)"/>
+    <!-- Stars -->
+    <g fill="#FFFFFF">
+      <circle cx="920" cy="90" r="1.6" opacity="0.9"/>
+      <circle cx="980" cy="140" r="1.2" opacity="0.7"/>
+      <circle cx="1050" cy="70" r="1.8" opacity="0.95"/>
+      <circle cx="1120" cy="160" r="1.1" opacity="0.65"/>
+      <circle cx="1180" cy="100" r="1.4" opacity="0.8"/>
+      <circle cx="1260" cy="55" r="1.7" opacity="0.9"/>
+      <circle cx="1340" cy="130" r="1.2" opacity="0.7"/>
+      <circle cx="1420" cy="80" r="1.5" opacity="0.85"/>
+      <circle cx="1490" cy="150" r="1.1" opacity="0.6"/>
+      <circle cx="1540" cy="40" r="1.3" opacity="0.75"/>
+      <circle cx="1080" cy="210" r="1" opacity="0.55"/>
+      <circle cx="1380" cy="200" r="1.4" opacity="0.8"/>
+      <circle cx="960" cy="200" r="1.1" opacity="0.5"/>
+      <circle cx="1220" cy="40" r="1.6" opacity="0.9"/>
+      <circle cx="1460" cy="220" r="1" opacity="0.55"/>
+    </g>
+    <!-- Crescent moon -->
+    <g filter="url(#softGlow)">
+      <circle cx="1380" cy="160" r="42" fill="#F5F0D8"/>
+      <circle cx="1398" cy="148" r="36" fill="#1A3358"/>
+    </g>
+    <!-- Night dunes -->
+    <path d="M800 620 C940 560 1040 580 1160 610 C1300 650 1380 540 1600 600 L1600 900 L800 900 Z" fill="#4A3A5C" opacity="0.9"/>
+    <path d="M800 700 C980 640 1100 720 1260 690 C1420 660 1500 720 1600 680 L1600 900 L800 900 Z" fill="url(#nightDune)"/>
+    <path d="M800 780 C1000 740 1180 800 1360 760 C1480 735 1540 770 1600 750 L1600 900 L800 900 Z" fill="#120C1A" opacity="0.9"/>
+  </g>
+
+  <!-- Soft center vignette for bottles -->
+  <rect x="120" y="150" width="1360" height="680" rx="28" fill="#061018" opacity="0.22"/>
+
+  <!-- ========== TITLE ========== -->
+  <text x="800" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#FFFFFF" letter-spacing="4">SAND SORT PUZZLE</text>
+  <text x="800" y="112" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.75" letter-spacing="2">UI ASSET SHEET � BOTTLE SKINS</text>
+
+  <!-- ========== BOTTLE HELPERS (groups) ========== -->
+  <!-- Each bottle cell: 220 wide, bottle ~90x170, label below -->
+
+  <!-- Row 1 Y=180, Row 2 Y=500 -->
+  <!-- Cols X: 160, 420, 680, 940, 1200 -->
+
+  <!-- ===== 1. TEST TUBE  Gold ===== -->
+  <g transform="translate(200,200)">
+    <ellipse cx="45" cy="168" rx="28" ry="6" fill="#000" opacity="0.18"/>
+    <!-- glass body -->
+    <path d="M28 18 H62 V150 Q62 165 45 165 Q28 165 28 150 Z" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <!-- sand -->
+    <path d="M30 55 H60 V150 Q60 162 45 162 Q30 162 30 150 Z" fill="url(#gold)"/>
+    <!-- glitter -->
+    <g fill="#FFF8D6" filter="url(#sparkle)">
+      <circle cx="38" cy="70" r="1.4"/><circle cx="52" cy="88" r="1.1"/><circle cx="42" cy="110" r="1.3"/><circle cx="50" cy="130" r="1"/><circle cx="36" cy="140" r="1.2"/>
+    </g>
+    <!-- shine -->
+    <path d="M32 22 H38 V148 Q34 155 32 148 Z" fill="url(#glassShine)"/>
+    <!-- rim -->
+    <rect x="26" y="12" width="38" height="10" rx="3" fill="#FFFFFF" fill-opacity="0.35" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text x="45" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Test Tube</text>
+  </g>
+
+  <!-- ===== 2. ERLENMEYER  Rose Gold ===== -->
+  <g transform="translate(460,200)">
+    <ellipse cx="50" cy="168" rx="34" ry="6" fill="#000" opacity="0.18"/>
+    <path d="M38 14 H62 L86 150 Q86 165 50 165 Q14 165 14 150 Z" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M34 70 L82 150 Q82 162 50 162 Q18 162 18 150 Z" fill="url(#roseGold)"/>
+    <g fill="#FFE8E0" filter="url(#sparkle)">
+      <circle cx="42" cy="90" r="1.3"/><circle cx="58" cy="110" r="1.1"/><circle cx="48" cy="130" r="1.4"/><circle cx="66" cy="140" r="1"/>
+    </g>
+    <path d="M40 18 H46 L34 145" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="4" stroke-linecap="round"/>
+    <rect x="36" y="8" width="28" height="10" rx="3" fill="#FFFFFF" fill-opacity="0.35" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text x="50" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Erlenmeyer</text>
+  </g>
+
+  <!-- ===== 3. ROUND FLASK  Teal ===== -->
+  <g transform="translate(720,200)">
+    <ellipse cx="50" cy="168" rx="36" ry="6" fill="#000" opacity="0.18"/>
+    <rect x="40" y="10" width="20" height="42" rx="4" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <circle cx="50" cy="118" r="46" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <circle cx="50" cy="122" r="38" fill="url(#teal)"/>
+    <g fill="#E0FFFF" filter="url(#sparkle)">
+      <circle cx="38" cy="110" r="1.4"/><circle cx="58" cy="128" r="1.2"/><circle cx="45" cy="140" r="1.1"/><circle cx="62" cy="108" r="1.3"/>
+    </g>
+    <path d="M44 14 H50 V48" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="3" stroke-linecap="round"/>
+    <rect x="38" y="6" width="24" height="10" rx="3" fill="#FFFFFF" fill-opacity="0.35" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text x="50" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Round Flask</text>
+  </g>
+
+  <!-- ===== 4. APOTHECARY  Emerald + stopper ===== -->
+  <g transform="translate(980,200)">
+    <ellipse cx="50" cy="168" rx="30" ry="6" fill="#000" opacity="0.18"/>
+    <!-- stopper -->
+    <rect x="38" y="2" width="24" height="14" rx="3" fill="#D4AF37" stroke="#FFF8D6" stroke-width="1"/>
+    <rect x="42" y="14" width="16" height="10" rx="2" fill="#C9A227"/>
+    <path d="M30 28 H70 V150 Q70 165 50 165 Q30 165 30 150 Z" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M32 55 H68 V150 Q68 162 50 162 Q32 162 32 150 Z" fill="url(#emerald)"/>
+    <g fill="#F0FFF8" filter="url(#sparkle)">
+      <circle cx="40" cy="70" r="1.3"/><circle cx="55" cy="95" r="1.1"/><circle cx="45" cy="120" r="1.4"/><circle cx="58" cy="140" r="1"/>
+    </g>
+    <path d="M34 32 H40 V148" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="4" stroke-linecap="round"/>
+    <rect x="34" y="24" width="32" height="8" rx="2" fill="#FFFFFF" fill-opacity="0.3" stroke="#FFFFFF" stroke-opacity="0.65" stroke-width="1.2"/>
+    <text x="50" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Apothecary</text>
+  </g>
+
+  <!-- ===== 5. BULB  Amethyst ===== -->
+  <g transform="translate(1240,200)">
+    <ellipse cx="50" cy="168" rx="34" ry="6" fill="#000" opacity="0.18"/>
+    <path d="M40 12 H60 V48 Q90 70 90 115 Q90 155 50 165 Q10 155 10 115 Q10 70 40 48 Z" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M42 58 Q82 75 82 115 Q82 148 50 158 Q18 148 18 115 Q18 75 42 58 Z" fill="url(#amethyst)"/>
+    <g fill="#F3E8FF" filter="url(#sparkle)">
+      <circle cx="40" cy="95" r="1.4"/><circle cx="60" cy="115" r="1.2"/><circle cx="48" cy="135" r="1.1"/><circle cx="55" cy="85" r="1.3"/>
+    </g>
+    <path d="M44 16 H50 V55" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="3" stroke-linecap="round"/>
+    <rect x="38" y="6" width="24" height="10" rx="3" fill="#FFFFFF" fill-opacity="0.35" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text x="50" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Bulb</text>
+  </g>
+
+  <!-- ===== 6. CACTUS  Iridescent ===== -->
+  <g transform="translate(200,520)">
+    <ellipse cx="50" cy="168" rx="32" ry="6" fill="#000" opacity="0.18"/>
+    <!-- main stem -->
+    <path d="M34 40 Q34 20 50 18 Q66 20 66 40 V145 Q66 162 50 162 Q34 162 34 145 Z" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <!-- arms -->
+    <path d="M34 70 H18 Q10 70 10 82 V100 Q10 110 20 110 H34" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M66 85 H82 Q90 85 90 97 V118 Q90 128 80 128 H66" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M36 55 H64 V145 Q64 158 50 158 Q36 158 36 145 Z" fill="url(#iridescent)"/>
+    <path d="M20 78 H34 V105 H22 Q14 105 14 95 V85 Q14 78 20 78 Z" fill="url(#iridescent)"/>
+    <path d="M66 95 H80 Q86 95 86 105 V115 Q86 122 78 122 H66 Z" fill="url(#iridescent)"/>
+    <g fill="#FFFFFF" filter="url(#sparkle)">
+      <circle cx="45" cy="70" r="1.2"/><circle cx="55" cy="100" r="1.4"/><circle cx="42" cy="130" r="1"/><circle cx="24" cy="90" r="1.1"/>
+    </g>
+    <rect x="40" y="12" width="20" height="10" rx="3" fill="#FFFFFF" fill-opacity="0.35" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text x="50" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Cactus</text>
+  </g>
+
+  <!-- ===== 7. HOURGLASS  Gold & Teal ===== -->
+  <g transform="translate(460,520)">
+    <ellipse cx="50" cy="168" rx="32" ry="6" fill="#000" opacity="0.18"/>
+    <path d="M22 20 H78 Q78 20 70 55 L55 85 L70 115 Q78 150 78 150 H22 Q22 150 30 115 L45 85 L30 55 Q22 20 22 20 Z" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <!-- top sand gold -->
+    <path d="M28 28 H72 Q70 48 58 72 L50 85 L42 72 Q30 48 28 28 Z" fill="url(#gold)"/>
+    <!-- bottom sand teal -->
+    <path d="M42 98 L50 85 L58 98 Q70 122 72 148 H28 Q30 122 42 98 Z" fill="url(#teal)"/>
+    <g fill="#FFF8D6" filter="url(#sparkle)">
+      <circle cx="40" cy="45" r="1.2"/><circle cx="58" cy="55" r="1"/><circle cx="45" cy="120" r="1.3"/><circle cx="60" cy="135" r="1.1"/>
+    </g>
+    <rect x="20" y="14" width="60" height="8" rx="2" fill="#FFFFFF" fill-opacity="0.3" stroke="#FFFFFF" stroke-opacity="0.65" stroke-width="1.2"/>
+    <rect x="20" y="150" width="60" height="8" rx="2" fill="#FFFFFF" fill-opacity="0.3" stroke="#FFFFFF" stroke-opacity="0.65" stroke-width="1.2"/>
+    <text x="50" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Hourglass</text>
+  </g>
+
+  <!-- ===== 8. SQUARE CARAFE  Gold / Emerald / Amethyst ===== -->
+  <g transform="translate(720,520)">
+    <ellipse cx="50" cy="168" rx="30" ry="6" fill="#000" opacity="0.18"/>
+    <path d="M22 18 H78 V155 Q78 162 70 162 H30 Q22 162 22 155 Z" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <!-- layers bottom to top visual: amethyst, emerald, gold -->
+    <rect x="24" y="118" width="52" height="40" fill="url(#amethyst)"/>
+    <rect x="24" y="88" width="52" height="30" fill="url(#emerald)"/>
+    <rect x="24" y="55" width="52" height="33" fill="url(#gold)"/>
+    <g fill="#FFFFFF" filter="url(#sparkle)">
+      <circle cx="35" cy="68" r="1.2"/><circle cx="55" cy="100" r="1.3"/><circle cx="40" cy="135" r="1.1"/><circle cx="60" cy="125" r="1"/>
+    </g>
+    <path d="M26 22 H32 V155" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="4" stroke-linecap="round"/>
+    <rect x="28" y="10" width="44" height="10" rx="2" fill="#FFFFFF" fill-opacity="0.35" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5"/>
+    <text x="50" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Square Carafe</text>
+  </g>
+
+  <!-- ===== 9. PERFUME  Rose Gold ===== -->
+  <g transform="translate(980,520)">
+    <ellipse cx="50" cy="168" rx="30" ry="6" fill="#000" opacity="0.18"/>
+    <!-- fancy cap -->
+    <path d="M42 2 L58 2 L55 14 H45 Z" fill="#D4AF37" stroke="#FFF8D6" stroke-width="1"/>
+    <rect x="44" y="12" width="12" height="16" rx="2" fill="#C9A227"/>
+    <!-- narrow neck + bulb body -->
+    <path d="M42 28 H58 V55 Q85 75 85 115 Q85 155 50 165 Q15 155 15 115 Q15 75 42 55 Z" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M44 62 Q78 78 78 115 Q78 148 50 158 Q22 148 22 115 Q22 78 44 62 Z" fill="url(#roseGold)"/>
+    <g fill="#FFE8E0" filter="url(#sparkle)">
+      <circle cx="40" cy="95" r="1.3"/><circle cx="58" cy="120" r="1.1"/><circle cx="48" cy="140" r="1.2"/>
+    </g>
+    <path d="M46 32 H52 V58" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="3" stroke-linecap="round"/>
+    <text x="50" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Perfume</text>
+  </g>
+
+  <!-- ===== 10. BEAKER  Teal & Gold ===== -->
+  <g transform="translate(1240,520)">
+    <ellipse cx="50" cy="168" rx="34" ry="6" fill="#000" opacity="0.18"/>
+    <!-- body with spout -->
+    <path d="M20 22 H72 L80 10 H88 L78 28 V150 Q78 165 50 165 Q22 165 22 150 V28 Z" fill="url(#glassBody)" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+    <!-- dual sand -->
+    <path d="M24 95 H74 V150 Q74 160 50 160 Q26 160 26 150 Z" fill="url(#teal)"/>
+    <path d="M24 60 H74 V95 H24 Z" fill="url(#gold)"/>
+    <g fill="#FFF8D6" filter="url(#sparkle)">
+      <circle cx="35" cy="72" r="1.2"/><circle cx="55" cy="82" r="1"/><circle cx="42" cy="115" r="1.3"/><circle cx="60" cy="140" r="1.1"/>
+    </g>
+    <path d="M26 28 H32 V148" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="4" stroke-linecap="round"/>
+    <!-- spout highlight -->
+    <path d="M72 22 L80 12" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"/>
+    <text x="50" y="196" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF">Beaker</text>
+  </g>
+
+  <!-- Footer legend -->
+  <g transform="translate(200,820)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#FFFFFF" opacity="0.7">GLITTER SANDS:</text>
+    <rect x="110" y="-10" width="14" height="14" rx="3" fill="url(#gold)"/>
+    <text x="130" y="0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#FFFFFF" opacity="0.85">Gold</text>
+    <rect x="180" y="-10" width="14" height="14" rx="3" fill="url(#roseGold)"/>
+    <text x="200" y="0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#FFFFFF" opacity="0.85">Rose Gold</text>
+    <rect x="280" y="-10" width="14" height="14" rx="3" fill="url(#teal)"/>
+    <text x="300" y="0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#FFFFFF" opacity="0.85">Teal</text>
+    <rect x="350" y="-10" width="14" height="14" rx="3" fill="url(#emerald)"/>
+    <text x="370" y="0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#FFFFFF" opacity="0.85">Emerald</text>
+    <rect x="440" y="-10" width="14" height="14" rx="3" fill="url(#amethyst)"/>
+    <text x="460" y="0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#FFFFFF" opacity="0.85">Amethyst</text>
+    <rect x="540" y="-10" width="14" height="14" rx="3" fill="url(#iridescent)"/>
+    <text x="560" y="0" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#FFFFFF" opacity="0.85">Iridescent</text>
+  </g>
+</svg>

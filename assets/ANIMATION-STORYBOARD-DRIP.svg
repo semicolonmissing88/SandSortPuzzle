@@ -1,0 +1,357 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2200" viewBox="0 0 1600 2200">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4aa8ef"/>
+      <stop offset="45%" stop-color="#7ec8f0"/>
+      <stop offset="100%" stop-color="#d4a84b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE65D"/><stop offset="50%" stop-color="#FFD700"/><stop offset="100%" stop-color="#E5B800"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F4C2C2"/><stop offset="50%" stop-color="#E0A96D"/><stop offset="100%" stop-color="#C68642"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#20B2AA"/><stop offset="50%" stop-color="#008080"/><stop offset="100%" stop-color="#005C5C"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7FFFD4"/><stop offset="50%" stop-color="#50C878"/><stop offset="100%" stop-color="#2E8B57"/>
+    </linearGradient>
+    <linearGradient id="amethyst" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#BA55D3"/><stop offset="50%" stop-color="#9966CC"/><stop offset="100%" stop-color="#6A0DAD"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#d8ecff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0.18"/>
+    </linearGradient>
+    <clipPath id="tubeClip"><path d="M18 28 h44 v150 q0 22 -22 22 q-22 0 -22 -22 Z"/></clipPath>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="1600" height="2200" fill="#0a1628"/>
+  <text x="80" y="70" fill="#fff" font-family="Arial Black, sans-serif" font-size="42" font-weight="900">SAND SORT  ANIMATION STORYBOARD</text>
+  <text x="80" y="110" fill="#c8d6e8" font-family="Arial, sans-serif" font-size="18">Bottles � Glitter Colors � Drop Drip Sequence (drag frames into Figma)</text>
+
+  <!-- ========== FRAME A: COLOR PALETTE ========== -->
+  <g transform="translate(60,150)">
+    <rect width="1480" height="280" rx="24" fill="#122038" stroke="#ffffff44" stroke-width="2"/>
+    <text x="40" y="48" fill="#FFD700" font-family="Arial Black, sans-serif" font-size="28">FRAME A  GLITTER SAND COLORS</text>
+    <!-- Gold -->
+    <g transform="translate(60,80)">
+      <rect width="240" height="140" rx="16" fill="url(#gold)"/>
+      <circle cx="40" cy="40" r="3" fill="#FFF8D6"/><circle cx="90" cy="70" r="2.5" fill="#fff" opacity=".7"/>
+      <circle cx="150" cy="45" r="3.5" fill="#FFF8D6"/><circle cx="180" cy="100" r="2" fill="#fff" opacity=".6"/>
+      <text x="0" y="170" fill="#fff" font-family="Arial" font-size="16" font-weight="700">1. GOLD #FFD700</text>
+      <text x="0" y="192" fill="#c8d6e8" font-family="Arial" font-size="12">#FFE65D � #E5B800</text>
+    </g>
+    <!-- Rose -->
+    <g transform="translate(340,80)">
+      <rect width="240" height="140" rx="16" fill="url(#rose)"/>
+      <circle cx="50" cy="50" r="3" fill="#FFF0E4"/><circle cx="120" cy="80" r="2.5" fill="#fff" opacity=".7"/>
+      <circle cx="190" cy="40" r="3" fill="#FFF0E4"/>
+      <text x="0" y="170" fill="#fff" font-family="Arial" font-size="16" font-weight="700">2. ROSE GOLD #E0A96D</text>
+      <text x="0" y="192" fill="#c8d6e8" font-family="Arial" font-size="12">#F4C2C2 � #C68642</text>
+    </g>
+    <!-- Teal -->
+    <g transform="translate(620,80)">
+      <rect width="240" height="140" rx="16" fill="url(#teal)"/>
+      <circle cx="45" cy="55" r="3" fill="#E0FFFF"/><circle cx="110" cy="35" r="2.5" fill="#fff" opacity=".7"/>
+      <circle cx="170" cy="90" r="3" fill="#E0FFFF"/>
+      <text x="0" y="170" fill="#fff" font-family="Arial" font-size="16" font-weight="700">3. TEAL #008080</text>
+      <text x="0" y="192" fill="#c8d6e8" font-family="Arial" font-size="12">#20B2AA � #005C5C</text>
+    </g>
+    <!-- Emerald -->
+    <g transform="translate(900,80)">
+      <rect width="240" height="140" rx="16" fill="url(#emerald)"/>
+      <circle cx="55" cy="40" r="3" fill="#F0FFF8"/><circle cx="130" cy="75" r="2.5" fill="#fff" opacity=".7"/>
+      <circle cx="200" cy="50" r="3" fill="#F0FFF8"/>
+      <text x="0" y="170" fill="#fff" font-family="Arial" font-size="16" font-weight="700">4. EMERALD #50C878</text>
+      <text x="0" y="192" fill="#c8d6e8" font-family="Arial" font-size="12">#7FFFD4 � #2E8B57</text>
+    </g>
+    <!-- Amethyst -->
+    <g transform="translate(1180,80)">
+      <rect width="240" height="140" rx="16" fill="url(#amethyst)"/>
+      <circle cx="40" cy="60" r="3" fill="#F5E6FF"/><circle cx="100" cy="40" r="2.5" fill="#fff" opacity=".7"/>
+      <circle cx="180" cy="85" r="3" fill="#F5E6FF"/>
+      <text x="0" y="170" fill="#fff" font-family="Arial" font-size="16" font-weight="700">5. AMETHYST #9966CC</text>
+      <text x="0" y="192" fill="#c8d6e8" font-family="Arial" font-size="12">#BA55D3 � #6A0DAD</text>
+    </g>
+  </g>
+
+  <!-- ========== FRAME B: BOTTLE LIBRARY ========== -->
+  <g transform="translate(60,460)">
+    <rect width="1480" height="420" rx="24" fill="#122038" stroke="#ffffff44" stroke-width="2"/>
+    <text x="40" y="48" fill="#7FFFD4" font-family="Arial Black, sans-serif" font-size="28">FRAME B  GLASS BOTTLES + SAND FILL</text>
+
+    <!-- helper: bottle symbol reused via groups -->
+    <!-- Bottle 1 Gold full -->
+    <g transform="translate(80,90)">
+      <text x="0" y="20" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Full Gold</text>
+      <g transform="translate(20,30)">
+        <path d="M22 8 h36 v8 h-6 v12 h-24 v-12 h-6 Z" fill="none" stroke="#fff" stroke-width="2" opacity=".9"/>
+        <path d="M28 28 h24 v150 q0 22 -12 22 q-12 0 -12 -22 Z" fill="url(#glass)" stroke="#fff" stroke-width="2"/>
+        <g clip-path="url(#tubeClip)" transform="translate(10,0)">
+          <rect x="18" y="58" width="44" height="140" fill="url(#gold)"/>
+          <circle cx="30" cy="90" r="2" fill="#FFF8D6"/><circle cx="45" cy="120" r="1.8" fill="#fff" opacity=".7"/>
+          <circle cx="35" cy="150" r="2.2" fill="#FFF8D6"/><circle cx="50" cy="170" r="1.5" fill="#fff" opacity=".6"/>
+        </g>
+        <path d="M34 40 q-4 60 -2 140" stroke="#fff" stroke-width="3" opacity=".35" fill="none"/>
+      </g>
+    </g>
+
+    <!-- Bottle 2 layered -->
+    <g transform="translate(280,90)">
+      <text x="0" y="20" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Layered Mix</text>
+      <g transform="translate(20,30)">
+        <path d="M22 8 h36 v8 h-6 v12 h-24 v-12 h-6 Z" fill="none" stroke="#fff" stroke-width="2"/>
+        <path d="M28 28 h24 v150 q0 22 -12 22 q-12 0 -12 -22 Z" fill="url(#glass)" stroke="#fff" stroke-width="2"/>
+        <rect x="30" y="98" width="20" height="35" fill="url(#amethyst)"/>
+        <rect x="30" y="133" width="20" height="35" fill="url(#emerald)"/>
+        <rect x="30" y="168" width="20" height="35" fill="url(#teal)"/>
+        <ellipse cx="40" cy="100" rx="9" ry="3" fill="#BA55D3" opacity=".7"/>
+        <circle cx="36" cy="110" r="1.5" fill="#F5E6FF"/><circle cx="44" cy="145" r="1.5" fill="#F0FFF8"/>
+        <circle cx="38" cy="180" r="1.5" fill="#E0FFFF"/>
+        <path d="M34 40 q-4 60 -2 140" stroke="#fff" stroke-width="3" opacity=".35" fill="none"/>
+      </g>
+    </g>
+
+    <!-- Bottle 3 rose -->
+    <g transform="translate(480,90)">
+      <text x="0" y="20" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Rose Gold</text>
+      <g transform="translate(20,30)">
+        <path d="M22 8 h36 v8 h-6 v12 h-24 v-12 h-6 Z" fill="none" stroke="#fff" stroke-width="2"/>
+        <path d="M28 28 h24 v150 q0 22 -12 22 q-12 0 -12 -22 Z" fill="url(#glass)" stroke="#fff" stroke-width="2"/>
+        <rect x="30" y="120" width="20" height="80" fill="url(#rose)"/>
+        <ellipse cx="40" cy="122" rx="9" ry="3" fill="#F4C2C2" opacity=".75"/>
+        <circle cx="35" cy="140" r="1.8" fill="#FFF0E4"/><circle cx="45" cy="165" r="1.5" fill="#fff" opacity=".65"/>
+        <path d="M34 40 q-4 60 -2 140" stroke="#fff" stroke-width="3" opacity=".35" fill="none"/>
+      </g>
+    </g>
+
+    <!-- Bottle 4 empty -->
+    <g transform="translate(680,90)">
+      <text x="0" y="20" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Empty Tube</text>
+      <g transform="translate(20,30)">
+        <path d="M22 8 h36 v8 h-6 v12 h-24 v-12 h-6 Z" fill="none" stroke="#fff" stroke-width="2"/>
+        <path d="M28 28 h24 v150 q0 22 -12 22 q-12 0 -12 -22 Z" fill="url(#glass)" stroke="#fff" stroke-width="2"/>
+        <path d="M34 40 q-4 60 -2 140" stroke="#fff" stroke-width="3" opacity=".35" fill="none"/>
+      </g>
+    </g>
+
+    <!-- Bottle 5 receiving -->
+    <g transform="translate(880,90)">
+      <text x="0" y="20" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Receiving Target</text>
+      <g transform="translate(20,30)">
+        <path d="M22 8 h36 v8 h-6 v12 h-24 v-12 h-6 Z" fill="none" stroke="#7EC8FF" stroke-width="2.5"/>
+        <path d="M28 28 h24 v150 q0 22 -12 22 q-12 0 -12 -22 Z" fill="url(#glass)" stroke="#7EC8FF" stroke-width="2"/>
+        <rect x="30" y="155" width="20" height="45" fill="url(#gold)"/>
+        <ellipse cx="40" cy="157" rx="9" ry="3" fill="#FFE65D" opacity=".8"/>
+        <!-- splash drops inside -->
+        <ellipse cx="40" cy="150" rx="8" ry="3" fill="#FFE65D" opacity=".5" filter="url(#glow)"/>
+        <circle cx="36" cy="140" r="2.5" fill="#FFD700" opacity=".9"/>
+        <circle cx="44" cy="135" r="2" fill="#FFF8D6"/>
+        <path d="M34 40 q-4 60 -2 140" stroke="#fff" stroke-width="3" opacity=".35" fill="none"/>
+      </g>
+    </g>
+
+    <!-- Bottle 6 tipped source -->
+    <g transform="translate(1120,140)">
+      <text x="-20" y="-20" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Source (Tip Pose)</text>
+      <g transform="rotate(-55 40 20)">
+        <path d="M22 8 h36 v8 h-6 v12 h-24 v-12 h-6 Z" fill="none" stroke="#fff" stroke-width="2"/>
+        <path d="M28 28 h24 v150 q0 22 -12 22 q-12 0 -12 -22 Z" fill="url(#glass)" stroke="#fff" stroke-width="2"/>
+        <rect x="30" y="100" width="20" height="100" fill="url(#gold)" transform="skewY(8)"/>
+        <path d="M34 40 q-4 60 -2 140" stroke="#fff" stroke-width="3" opacity=".35" fill="none"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========== FRAME C: DRIP ANIMATION SEQUENCE ========== -->
+  <g transform="translate(60,920)">
+    <rect width="1480" height="520" rx="24" fill="#122038" stroke="#ffffff44" stroke-width="2"/>
+    <text x="40" y="48" fill="#F4C2C2" font-family="Arial Black, sans-serif" font-size="28">FRAME C  DROP DRIP INTO BOTTLE (6 KEYFRAMES)</text>
+    <text x="40" y="78" fill="#c8d6e8" font-family="Arial" font-size="14">Use these poses for pour timing: tip � drip � cascade � splash � settle</text>
+
+    <!-- KF1 Idle -->
+    <g transform="translate(50,110)">
+      <rect width="210" height="360" rx="16" fill="#0a1628" stroke="#ffffff22"/>
+      <text x="16" y="28" fill="#FFD700" font-family="Arial" font-size="13" font-weight="700">1. IDLE</text>
+      <g transform="translate(40,60)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#fff" stroke-width="1.5"/>
+        <rect x="34" y="70" width="12" height="70" fill="url(#gold)"/>
+      </g>
+      <g transform="translate(120,60)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#fff" stroke-width="1.5"/>
+        <rect x="34" y="100" width="12" height="40" fill="url(#gold)"/>
+      </g>
+      <text x="16" y="340" fill="#c8d6e8" font-family="Arial" font-size="11">Select source tube</text>
+    </g>
+
+    <!-- KF2 Lift + tip -->
+    <g transform="translate(280,110)">
+      <rect width="210" height="360" rx="16" fill="#0a1628" stroke="#ffffff22"/>
+      <text x="16" y="28" fill="#FFD700" font-family="Arial" font-size="13" font-weight="700">2. LIFT + TIP</text>
+      <g transform="translate(90,40) rotate(-60)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#fff" stroke-width="1.5"/>
+        <rect x="34" y="70" width="12" height="70" fill="url(#gold)"/>
+      </g>
+      <g transform="translate(120,80)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#7EC8FF" stroke-width="1.8"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#7EC8FF" stroke-width="1.5"/>
+        <rect x="34" y="100" width="12" height="40" fill="url(#gold)"/>
+      </g>
+      <text x="16" y="340" fill="#c8d6e8" font-family="Arial" font-size="11">Mouth over target rim</text>
+    </g>
+
+    <!-- KF3 First drops -->
+    <g transform="translate(510,110)">
+      <rect width="210" height="360" rx="16" fill="#0a1628" stroke="#ffffff22"/>
+      <text x="16" y="28" fill="#FFD700" font-family="Arial" font-size="13" font-weight="700">3. FIRST DROPS</text>
+      <g transform="translate(90,40) rotate(-60)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#fff" stroke-width="1.5"/>
+        <rect x="34" y="80" width="12" height="60" fill="url(#gold)"/>
+      </g>
+      <!-- drops -->
+      <ellipse cx="118" cy="95" rx="4" ry="6" fill="#FFD700" filter="url(#glow)"/>
+      <ellipse cx="122" cy="115" rx="3.5" ry="5.5" fill="#FFE65D"/>
+      <ellipse cx="116" cy="135" rx="3" ry="5" fill="#FFD700"/>
+      <g transform="translate(120,80)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#7EC8FF" stroke-width="1.8"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#7EC8FF" stroke-width="1.5"/>
+        <rect x="34" y="100" width="12" height="40" fill="url(#gold)"/>
+      </g>
+      <text x="16" y="340" fill="#c8d6e8" font-family="Arial" font-size="11">Oval drops leave mouth</text>
+    </g>
+
+    <!-- KF4 Cascade -->
+    <g transform="translate(740,110)">
+      <rect width="210" height="360" rx="16" fill="#0a1628" stroke="#ffffff22"/>
+      <text x="16" y="28" fill="#FFD700" font-family="Arial" font-size="13" font-weight="700">4. CASCADE STREAM</text>
+      <g transform="translate(90,40) rotate(-60)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#fff" stroke-width="1.5"/>
+        <rect x="34" y="90" width="12" height="50" fill="url(#gold)"/>
+      </g>
+      <!-- dense stream -->
+      <ellipse cx="118" cy="90" rx="4" ry="6" fill="#FFE65D" filter="url(#glow)"/>
+      <ellipse cx="121" cy="105" rx="3.5" ry="5.5" fill="#FFD700"/>
+      <ellipse cx="116" cy="118" rx="4" ry="6" fill="#FFF8D6"/>
+      <ellipse cx="120" cy="132" rx="3.5" ry="5.5" fill="#FFD700"/>
+      <ellipse cx="117" cy="146" rx="3" ry="5" fill="#E5B800"/>
+      <ellipse cx="122" cy="158" rx="3.5" ry="5" fill="#FFE65D"/>
+      <ellipse cx="115" cy="170" rx="3" ry="4.5" fill="#FFD700"/>
+      <g transform="translate(120,80)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#7EC8FF" stroke-width="1.8"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#7EC8FF" stroke-width="1.5"/>
+        <rect x="34" y="92" width="12" height="48" fill="url(#gold)"/>
+        <ellipse cx="40" cy="94" rx="6" ry="2.5" fill="#FFE65D" opacity=".7"/>
+      </g>
+      <text x="16" y="340" fill="#c8d6e8" font-family="Arial" font-size="11">Dense glitter drip chain</text>
+    </g>
+
+    <!-- KF5 Splash inside -->
+    <g transform="translate(970,110)">
+      <rect width="210" height="360" rx="16" fill="#0a1628" stroke="#ffffff22"/>
+      <text x="16" y="28" fill="#FFD700" font-family="Arial" font-size="13" font-weight="700">5. SPLASH IN BOTTLE</text>
+      <g transform="translate(90,40) rotate(-60)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#fff" stroke-width="1.5"/>
+        <rect x="34" y="100" width="12" height="40" fill="url(#gold)"/>
+      </g>
+      <ellipse cx="118" cy="100" rx="3.5" ry="5" fill="#FFD700"/>
+      <ellipse cx="120" cy="120" rx="3" ry="4.5" fill="#FFE65D"/>
+      <g transform="translate(120,80)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#7EC8FF" stroke-width="1.8"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#7EC8FF" stroke-width="1.5"/>
+        <rect x="34" y="80" width="12" height="60" fill="url(#gold)"/>
+        <!-- splash -->
+        <ellipse cx="40" cy="78" rx="10" ry="4" fill="#FFE65D" opacity=".55" filter="url(#glow)"/>
+        <circle cx="34" cy="70" r="2.5" fill="#FFF8D6"/>
+        <circle cx="46" cy="68" r="2" fill="#FFD700"/>
+        <circle cx="40" cy="62" r="1.8" fill="#fff" opacity=".8"/>
+      </g>
+      <text x="16" y="340" fill="#c8d6e8" font-family="Arial" font-size="11">Impact ripple + sparks</text>
+    </g>
+
+    <!-- KF6 Settle -->
+    <g transform="translate(1200,110)">
+      <rect width="210" height="360" rx="16" fill="#0a1628" stroke="#ffffff22"/>
+      <text x="16" y="28" fill="#FFD700" font-family="Arial" font-size="13" font-weight="700">6. SETTLE</text>
+      <g transform="translate(40,60)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#fff" stroke-width="1.5"/>
+        <rect x="34" y="90" width="12" height="50" fill="url(#gold)"/>
+      </g>
+      <g transform="translate(120,60)">
+        <path d="M28 8 h24 v6 h-4 v10 h-16 v-10 h-4 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+        <path d="M32 24 h16 v110 q0 14 -8 14 q-8 0 -8 -14 Z" fill="url(#glass)" stroke="#fff" stroke-width="1.5"/>
+        <rect x="34" y="70" width="12" height="70" fill="url(#gold)"/>
+        <ellipse cx="40" cy="72" rx="6" ry="2.5" fill="#FFE65D" opacity=".75"/>
+        <circle cx="36" cy="90" r="1.5" fill="#FFF8D6"/><circle cx="44" cy="110" r="1.3" fill="#fff" opacity=".65"/>
+      </g>
+      <text x="16" y="340" fill="#c8d6e8" font-family="Arial" font-size="11">Source back � sand committed</text>
+    </g>
+  </g>
+
+  <!-- ========== FRAME D: DROP COMPONENTS ========== -->
+  <g transform="translate(60,1480)">
+    <rect width="1480" height="320" rx="24" fill="#122038" stroke="#ffffff44" stroke-width="2"/>
+    <text x="40" y="48" fill="#20B2AA" font-family="Arial Black, sans-serif" font-size="28">FRAME D  DROP / DRIP COMPONENTS (reuse in animation)</text>
+
+    <g transform="translate(80,100)">
+      <text x="0" y="0" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Big Drop</text>
+      <ellipse cx="40" cy="50" rx="10" ry="16" fill="#FFD700" stroke="#FFF8D6" stroke-width="2" filter="url(#glow)"/>
+      <ellipse cx="36" cy="42" rx="3" ry="5" fill="#FFF8D6" opacity=".7"/>
+    </g>
+    <g transform="translate(220,100)">
+      <text x="0" y="0" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Mid Drop</text>
+      <ellipse cx="40" cy="50" rx="7" ry="11" fill="#E0A96D" stroke="#FFF0E4" stroke-width="1.5" filter="url(#glow)"/>
+    </g>
+    <g transform="translate(360,100)">
+      <text x="0" y="0" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Spark Grain</text>
+      <circle cx="40" cy="50" r="4" fill="#50C878" stroke="#F0FFF8" stroke-width="1.5"/>
+      <circle cx="55" cy="45" r="2.5" fill="#7FFFD4"/>
+      <circle cx="48" cy="62" r="2" fill="#fff" opacity=".8"/>
+    </g>
+    <g transform="translate(520,100)">
+      <text x="0" y="0" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Stream Column</text>
+      <ellipse cx="40" cy="30" rx="5" ry="8" fill="#9966CC"/>
+      <ellipse cx="42" cy="48" rx="4.5" ry="7" fill="#BA55D3"/>
+      <ellipse cx="39" cy="66" rx="5" ry="8" fill="#9966CC"/>
+      <ellipse cx="41" cy="84" rx="4" ry="6" fill="#F5E6FF"/>
+      <ellipse cx="40" cy="100" rx="4.5" ry="7" fill="#6A0DAD"/>
+    </g>
+    <g transform="translate(720,100)">
+      <text x="0" y="0" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Splash Ripple</text>
+      <ellipse cx="50" cy="55" rx="28" ry="10" fill="#20B2AA" opacity=".35" filter="url(#glow)"/>
+      <ellipse cx="50" cy="55" rx="16" ry="6" fill="#008080" opacity=".55"/>
+      <circle cx="40" cy="40" r="3" fill="#E0FFFF"/><circle cx="60" cy="38" r="2.5" fill="#fff"/>
+      <circle cx="50" cy="32" r="2" fill="#20B2AA"/>
+    </g>
+    <g transform="translate(960,100)">
+      <text x="0" y="0" fill="#fff" font-family="Arial" font-size="14" font-weight="700">Timing Notes</text>
+      <text x="0" y="40" fill="#c8d6e8" font-family="Arial" font-size="13">Tip: 280ms</text>
+      <text x="0" y="62" fill="#c8d6e8" font-family="Arial" font-size="13">Drip start delay: 260ms</text>
+      <text x="0" y="84" fill="#c8d6e8" font-family="Arial" font-size="13">Stream: 520 + amount�160ms</text>
+      <text x="0" y="106" fill="#c8d6e8" font-family="Arial" font-size="13">Settle / commit: 280ms</text>
+      <text x="0" y="140" fill="#FFD700" font-family="Arial" font-size="13" font-weight="700">Drops fall INTO bottle mouth � sand surface</text>
+    </g>
+  </g>
+
+  <!-- ========== FRAME E: HOW TO USE ========== -->
+  <g transform="translate(60,1840)">
+    <rect width="1480" height="280" rx="24" fill="#122038" stroke="#ffffff44" stroke-width="2"/>
+    <text x="40" y="48" fill="#fff" font-family="Arial Black, sans-serif" font-size="28">HOW TO IMPORT INTO FIGMA</text>
+    <text x="40" y="90" fill="#c8d6e8" font-family="Arial" font-size="16">1. Open your Sand Sort Figma file</text>
+    <text x="40" y="120" fill="#c8d6e8" font-family="Arial" font-size="16">2. Drag this SVG (or PNG) onto the canvas  each labeled FRAME is a section</text>
+    <text x="40" y="150" fill="#c8d6e8" font-family="Arial" font-size="16">3. Or: File � Place image � select assets/ANIMATION-STORYBOARD-DRIP.svg</text>
+    <text x="40" y="180" fill="#c8d6e8" font-family="Arial" font-size="16">4. Use Frame C keyframes as Smart Animate prototype steps (1�2�3�4�5�6)</text>
+    <text x="40" y="220" fill="#7FFFD4" font-family="Arial" font-size="16" font-weight="700">Figma MCP Starter limit reached  local SVG is the free workaround until upgrade.</text>
+    <text x="40" y="250" fill="#FFD700" font-family="Arial" font-size="15">File: assets/ANIMATION-STORYBOARD-DRIP.svg</text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+*.pem
+.env
+.env*.local
+ios/
+
+# Local Gradle / IDE
+.gradle-cache/
+.idea/
+
+# Android build artifacts (keep native source)
+android/app/build/
+android/build/
+android/.gradle/
+android/app/*.log
+*.apk
+*.aab
+*.apk.idsig
+
+# Local debug dumps
+wsplog*.txt
+phonelog*.txt
+phone_screen.png
+medialog.txt
+ms.txt
+*.log
+dist-android/
+tools/
