@@ -46,9 +46,19 @@ src/
   utils/        responsive sizing
 ```
 
-## Gameplay
+## Play Store — How to Play screenshots
 
-1. Tap a bottle to select (lifts up)
-2. Tap a valid target to pour
-3. Sort each bottle to a single color
-4. Auto-advance on win
+Phone 9:16 images for the store listing. Download from GitHub: open a file → **Download**.
+
+| # | File | Step |
+|---|---|---|
+| 1 | [sand-sort-howto-01-goal.png](playstore/howto/sand-sort-howto-01-goal.png) | Goal — one color per bottle |
+| 2 | [sand-sort-howto-02-select.png](playstore/howto/sand-sort-howto-02-select.png) | Tap a bottle to select |
+| 3 | [sand-sort-howto-03-pour.png](playstore/howto/sand-sort-howto-03-pour.png) | Tap another bottle to pour |
+| 4 | [sand-sort-howto-04-match.png](playstore/howto/sand-sort-howto-04-match.png) | Same top color or empty only |
+| 5 | [sand-sort-howto-05-stream.png](playstore/howto/sand-sort-howto-05-stream.png) | Mouths touch, sand fills |
+| 6 | [sand-sort-howto-06-complete.png](playstore/howto/sand-sort-howto-06-complete.png) | Fill one color to complete |
+| 7 | [sand-sort-howto-07-win.png](playstore/howto/sand-sort-howto-07-win.png) | Clear the level; Hint / Undo |
+
+Folder: `playstore/howto/`
+
